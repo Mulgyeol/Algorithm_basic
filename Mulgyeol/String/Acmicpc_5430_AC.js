@@ -1,44 +1,54 @@
-const readline = require("readline");
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-const input = [];
-rl.on("line", function (line) {
-  input.push(line);
-}).on("close", function () {
-  solution(input);
-  process.exit();
-});
+const fs = require("fs");
+const input = fs.readFileSync("/dev/stdin").toString().split("\n");
 
 function solution(input) {
-  let T = Number(input[0]);
+  let T = +input[0];
   let idx = 1;
-  for (let i = 0; i < T; i++) {
+  for (let t = 0; t < T; t++) {
     const p = input[idx++];
-    const commandLength = p.length;
+    const pLength = p.length;
     let num = Number(input[idx++]);
     let array = input[idx++];
-    array = array.slice(1, -1);
 
-    let flag = false;
-    for (let i = 0; i < commandLength; i++) {
+    array = array
+      .slice(1, array.length - 1)
+      .split(",")
+      .join("");
+
+    let front = 0;
+    let end = 0;
+    let dir = true; // true는 앞
+    let flag = true;
+
+    for (let i = 0; i < pLength; i++) {
       if (p[i] === "R") {
-        array = array.split(",").reverse().join(",");
+        dir = !dir;
       } else {
-        if (num === 0) {
+        if (num !== 0) {
+          dir ? front++ : end++;
+          num--;
+        } else {
           console.log("error");
-          flag = true;
+          flag = false;
           break;
         }
-        array = array.slice(2);
-        num--;
       }
     }
 
-    if (!flag) {
+    if (flag) {
+      dir
+        ? (array = array
+            .slice(front, array.length - end)
+            .split("")
+            .join(","))
+        : (array = array
+            .slice(front, array.length - end)
+            .split("")
+            .reverse()
+            .join(","));
       console.log("[" + array + "]");
     }
   }
 }
+
+solution(input);
