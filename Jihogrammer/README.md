@@ -229,9 +229,43 @@
 | 구분            | 링크 |
 | --------------- | ---- |
 | 개념정리        |      |
-| 공통 문제       | [BOJ 5430 AC](https://jihogrammer.tistory.com/44) |
-| BOJ 1764 듣보잡 | [Blog](https://jihogrammer.tistory.com/45)        |
-| 문제2     |      |
-| 문제3     |      |
+| 공통 문제       | [BOJ 5430 AC](https://jihogrammer.tistory.com/44)      |
+| BOJ 1764 듣보잡 | [Blog](https://jihogrammer.tistory.com/45)             |
+| BOJ 9012 괄호   | [Code](http://boj.kr/4520db4fbd7a4715824732db200431df) |
+| BOJ 11718 그대로 출력하기     | [Code](http://boj.kr/0bd0597e0857454198153e8819368097) |
 
 ---
+
+## 📌 Deque
+
+> 미리 2문제 풀었었는데, 미리 push를 못했습니다...
+> 더 개선된 모습 보여드리려 노력하겠습니다.
+> [커밋 기록](https://github.com/JihoAlgorithm/BOJ/commits/main)
+> 질문 있으시다면 아래 링크 들어오셔서 댓글 달아주세요...!
+> 그리고 파이썬으로 풀다 보니 자율 문제는 난이도를 많이 낮췄습니다...
+
+| 구분            | 링크 |
+| --------------- | ---- |
+| 공통 문제       | [BOJ 3190 뱀](https://github.com/JihoAlgorithm/BOJ/commit/f9a9bf22e72195914b9b611f967df2884a7a7938)      |
+| BOJ 10866 덱 | [code](https://github.com/JihoAlgorithm/BOJ/commit/891bc4a7b0eb9101e32378c794d020d18edbc9fe)             |
+| BOJ 1021 회전하는 큐   | [code](https://github.com/JihoAlgorithm/BOJ/commit/272064fd2eadeacb3f84257401c427ca6bef9cf6) |
+| BOJ 2161 카드1     | [code](https://github.com/JihoAlgorithm/BOJ/commit/72b5486cce2ed78bbabd9b3293e571a2f9472bb4) |
+
+## 📌 Recursive
+
+| 구분            | 링크 |
+| --------------- | ---- |
+| 공통 문제로 착각한 문제| [BOJ 2630 색종이 만들기](https://github.com/JihoAlgorithm/BOJ/blob/main/src/recursive/boj2630/Main.py) |
+| BOJ 10870 피보나치 수 5 | [code](https://github.com/JihoAlgorithm/BOJ/blob/main/src/recursive/boj10870/Main.py) |
+| BOJ 10872 팩토리얼   | [code](https://github.com/JihoAlgorithm/BOJ/commit/cd5a75f155465df1e0da72bec0c4f3b0b3469f46) |
+| BOJ 11729 하노이     | [code](https://github.com/JihoAlgorithm/BOJ/commit/0b943eab19c0cb60f761d3c67499e33419489b8f) |
+
+## 📌 Greedy
+
+| 구분            | 링크 |
+| --------------- | ---- |
+| 만나서 같이 푼 문제 | [BOJ 13305 주유소](https://github.com/JihoAlgorithm/BOJ/blob/main/src/greedy/boj13305/Main.py) |
+| 공통 문제 | [BOJ 11000 강의실 배정]() |
+| BOJ | [code]() |
+| BOJ | [code]() |
+| BOJ | [code]() |

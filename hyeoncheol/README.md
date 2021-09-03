@@ -15,16 +15,24 @@
 - [DP](#pushpin-dp)
 - [Bracktracking](#pushpin-backtracking)
 - [String](#pushpin-string)
-
+- [Sort](#pushpin-Sort)
+- [Deque](#pushpin-Deque)
+- [Simulation](#pushpin-Simulation)
+- [Recursion](#pushpin-Recursion)
+- [Tree](#pushpin-Tree)
+- [Prefix Sum](#pushin-Prefix-Sum)
+- [Greedy](#pushin-Greedy)
+- [Data Structures](#pushin-Data-Structures)
+- [Implementation](#pushin-Implementation)
 ---
 
 ## :pushpin: DFS
 
 | 구분      | 링크 |
 | --------- | ---- |
-| 개념정리  |      |
+| 개념정리  |   [LINK](https://codingtalk.tistory.com/228)   |
 | 공통 문제 |      |
-| 문제1     |      |
+| 문제1     |   [백준 11724 연결 요소의 개수](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/DFS/Back_11724.java)   |
 | 문제2     |      |
 | 문제3     |      |
 
@@ -34,9 +42,9 @@
 
 | 구분      | 링크 |
 | --------- | ---- |
-| 개념정리  |      |
+| 개념정리  |   [LINK](https://codingtalk.tistory.com/228)   |
 | 공통 문제 |      |
-| 문제1     |      |
+| 문제1     |  [백준 9372 상근이의 여행](https://codingtalk.tistory.com/232)    |
 | 문제2     |      |
 | 문제3     |      |
 
@@ -144,9 +152,10 @@
 | --------- | ---- |
 | 개념정리  |      |
 | 공통 문제 |      |
-| 문제1     |      |
-| 문제2     |      |
-| 문제3     |      |
+| 문제1     |   [백준 9095 1, 2, 3 더하기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/DP/Back_9095.java)   |
+| 문제2     |   [백준 1912 연속합](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/DP/Back_1912.java)   |
+| 문제3     |   [백준 1932 정수 삼각형](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/DP/Back_1932_2.java)   |
+| 문제4     |   [백준 2011 암호 코드](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/DP/Back_2011.java)    |
 
 ---
 
@@ -166,11 +175,121 @@
 
 | 구분      | 링크 |
 | --------- | ---- |
-| 개념정리  |      |
+| 개념정리  |  [String 메소드 간단 정리](https://codingtalk.tistory.com/210)    |
 | 공통 문제 |  [백준5430 AC](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/String/Back_5430.java)    |
 | 문제1     |  [백준14425 문자열 ](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/String/Back_14425.java)    |
 | 문제2     |  [백준19583 싸이버개강총회](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/String/Back_19583.java)    |
+| 문제3     |  [백준17609 회문](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/String/Back_17609.java)    |
+| 문제4     |  [백준5525 IOIOI](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/String/Back_5525.java)    |
+| 문제5     |   [백준 2941 크로아티아](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/String/Back_2941.java)   |
+---
+
+## :pushpin: Sort
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |      |
+| 문제1     |  [백준_11650 좌표 정렬하기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Sort/Back_11650.java)    |
+| 문제2     |  [백준_2751 좌표 정렬하기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Sort/Back_2751.java)    |
+| 문제3     |  [백준_1026 보물](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Sort/Back_1026.java)    |
+| 문제4     |  [백준_2108 통계학](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Sort/Back_2108.java)    |
+| 문제5     |      |
+
+---
+
+## :pushpin: Deque
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |  [백준 3190 뱀](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Deque/Back_3190_2.java)    |
+| 문제1     |  [백준 2346 풍선 터뜨리기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Deque/Back_2346.java)    |
+| 문제2     |      |
+| 문제3     |      |
+
+---
+## :pushpin: Simulation
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |      |
+| 문제1     |   [백준 2947 나무 조각](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Simulation/Back_2947.java)   |
+| 문제2     |      |
+| 문제3     |      |
+
+---
+## :pushpin: Recursion
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |    [백준 4902 삼각형의 합]  |
+| 문제1     |   [백준 2630 색종이 만들기 ](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Recursion/Back_2630.java)   |
+| 문제2     |   [백준_1780 종이의 갯수 ](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Recursion/Back_1780.java)   |
+| 문제3     |      |
+
+---
+## :pushpin: Tree
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |      |
+| 문제1     |   [백준 1991 트리 순회](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Tree/Back_1991.java)   |
+| 문제2     |   [백준 5639 이진 검색 트리](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Tree/Back_5639.java)   |
 | 문제3     |      |
 
 ---
 
+## :pushpin: Prefix Sum
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |      |
+| 문제1     |  [백준_11659 구간 합 구하기 4](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Prefix%20Sum/Back_11659.java)    |
+| 문제2     |  [백준 11441 합 구하기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Prefix%20Sum/Back_11441.java)    |
+| 문제3     |      |
+
+---
+
+## :pushpin: Greedy
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |  [백준11000 강의실 배정](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Greedy/Back_11000.java)    |
+| 문제1     |   [백준 13305 주유소](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Greedy/Back_13305.java)   |
+| 문제2     |   [백준 11497 통나무 건너뛰기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Greedy/Back_11497.java)   |
+| 문제3     |   [백준 1080 행렬](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Greedy/Back_1080.java)   |
+| 문제4     |   [백준 2012 등수 매기기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Greedy/Back_2012.java)   |
+| 문제5     |   [백준 2012 크게 만들기](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Greedy/Back_2812.java)   |
+| 문제6     |   [백준 2437 저울](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Greedy/Back_2437.java)   |
+
+---
+
+## :pushpin: Data Structures
+
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |      |
+| 문제1     |   [백준 11286 절댓값 힙](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Data%20Structures/Back_11286.java)    |
+| 문제2     |      |
+| 문제3     |      |
+
+---
+## :pushpin: Implementation
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |      |
+| 공통 문제 |      |
+| 문제1     |   [백준 1475 방번호](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Implementation/Back_1475.java)   |
+| 문제2     |   [백준 18111 마인크래프트](https://github.com/SSAFY-5th-GwanJu-4C-Algorithms/Algorithm_basic/blob/main/hyeoncheol/Implementation/Back_18111.java)   |
+| 문제3     |      |
+
+---

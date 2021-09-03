@@ -15,7 +15,10 @@
 -   [DP](#pushpin-dp)
 -   [Bracktracking](#pushpin-backtracking)
 -   [String](#pushpin-string)
-
+-   [Deque](#pushpin-Deque)
+-   [Recursive](#pushpin-Recursive)
+-   [Greedy](#pushpin-Greedy)
+-   [정규표현식](#pushpin-정규표현식)
 ---
 
 ## :pushpin: DFS
@@ -156,8 +159,56 @@
 | --------- | ---- |
 | 개념정리  |      |
 | 공통 문제 | [백준 5430 AC](./String/Baekjoon_5430)     |
-| 문제1     |      |
-| 문제2     |      |
-| 문제3     |      |
+| 문제1     | [백준 10773 제로](./String/Baekjoon_10773)     |
+| 문제2     |  [백준 9375 패션왕 신해빈](./String/Baekjoon_9375)    |
+| 문제3     |   [백준 1541 잃어버린 괄호](./String/Baekjoon_1541)   |
+
+---
+
+## :pushpin: Deque
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 개념정리  |   [Link](https://ludastar.tistory.com/104)   |
+| 공통 문제 | [백준 3190 뱀](./Deque/Baekjoon_3190)  |
+| 문제1     | [백준 1021 회전하는 큐](./Deque/Baekjoon_1021)  |
+| 문제2     | [백준 2346 풍선 터뜨리기](./Deque/Baekjoon_2346)  |
+| 문제3     | [백준 11656 접미사 배열](./String/Baekjoon_11656) |
+
+---
+
+## :pushpin: Recursive
+
+| 구분      | 링크 |
+| --------- | ---- |
+| 공통 문제 | [백준 4902 삼각형의 값](./Recursive/Baekjoon_4902) |
+| 같이 푼 문제 | [백준 2630 색종이 만들기](./Recursive/Baekjoon_2630) |
+| 문제1     | [백준 5568 카드 놓기](./Recursive/Baekjoon_5568)  |
+| 문제2     |[백준 10994 별찍기-19](./Recursive/Baekjoon_10994) |
+| 문제3     |[백준 1992 쿼드트리](./Recursive/Baekjoon_1992) |
+
+---
+
+## :pushpin: Greedy
+
+| 구분         | 링크 |
+| ------------ | ---- |
+| 공통 문제    | [백준 11000 강의실 배정](./Greedy/Baekjoon_11000) |
+| 같이 푼 문제 | [백준 13305 주유소](./Greedy/Baekjoon_13305) |
+| 문제1        | [백준 11399 ATM](./Greedy/Baekjoon_11399)|
+| 문제2        | [백준 1946 신입사원](./Greedy/Baekjoon_1946)|
+| 문제3        | [백준 1080 행렬](./Greedy/Baekjoon_1080)|
+
+---
+
+## :pushpin: 정규표현식
+
+| 구분         | 링크 |
+| ------------ | ---- |
+| 공통 문제    | [백준 1013 Contact](./Regex/Baekjoon_1013) |
+| 같이 푼 문제 | [백준 2437 저울](./Greedy/Baekjoon_2437) |
+| 문제1        | [백준 14501 퇴사](./Regex/Baekjoon_14501)|
+| 문제2        | [백준 13458 시험감독](./Regex/Baekjoon_13458)|
+| 문제3        | [백준 14889 스타트와 링크](./Regex/Baekjoon_14889)|
 
 ---
